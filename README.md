@@ -7,9 +7,9 @@ clean_merged_branch
 
 or due to some reasons, you want to delete merged branch when this sprint(agile development) finish. By using
 
-this rake task, you can delete merged branch easily in local and remote. In order to avoid mistake, in this tool, we do not 
+this rake task, you can delete merged branch easily in local and remote. In order to avoid mistake, 
 
-allow to delete all merged branch automatically. 
+in this tool, we do not allow to delete all merged branch automatically. 
 
 
 ## Environment
