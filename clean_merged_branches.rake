@@ -5,7 +5,7 @@ namespace :tool do
 
     if keyword.blank?
       puts "Please input your keyword of branch name!!!\n"
-      puts "[Usage]: bundle exec rake gep:clean_merged_branches keyword=***"
+      puts "[Usage]: bundle exec rake tool:clean_merged_branches keyword=***"
       exit
     end
 
