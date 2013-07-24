@@ -18,7 +18,7 @@ in this tool, we do not allow to delete all merged branch automatically.
 
 ## How to use
   
-  For example, you want to delete merged branch in "main_branch"
+  For example, you want to delete merged branch `pr-WEB-12345` in `main_branch` 
 
 * Put this rake task to your rails root and under lib/tasks folders. 
 
@@ -26,7 +26,6 @@ in this tool, we do not allow to delete all merged branch automatically.
 
 * Bundle exec rake tool:clean_merged_branch
 
-* input some keywords about branch name (For us, normally, we put JIRA number as part of branch name)
+* input some keywords about branch name like `pr-WEB-12345` (For us, normally, we put JIRA number as part of branch name)
 
-
-
+* Following the message to input `Y` or `N` to delete local or remote branch.
